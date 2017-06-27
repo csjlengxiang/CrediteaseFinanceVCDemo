@@ -11,13 +11,13 @@
 
 @implementation FinanceVCManager
 
-- (void)setRootURL:(NSString *)rootURL domain:(NSString *)domain cookieChannel:(NSString *)channel {
++ (void)setRootURL:(NSString *)rootURL domain:(NSString *)domain cookieChannel:(NSString *)channel {
     FinanceRootURL = rootURL;
     FinanceDomain = domain;
     CookieChannel = channel;
 }
 
-- (void)setCookieChannel:(NSString *)channel {
++ (void)setCookieChannel:(NSString *)channel {
     CookieChannel = channel;
 }
 

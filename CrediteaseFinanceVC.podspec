@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "CrediteaseFinanceVC"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "CrediteaseFinanceVC is used for finance h5"
 
   s.description  = <<-DESC

@@ -25,9 +25,9 @@ static NSString *  CookieChannel = @"babysleep-iOS";
 
 @interface FinanceVCManager : NSObject
 
-- (void)setRootURL:(NSString *)rootURL domain:(NSString *)domain cookieChannel:(NSString *)channel;
++ (void)setRootURL:(NSString *)rootURL domain:(NSString *)domain cookieChannel:(NSString *)channel;
 
-- (void)setCookieChannel:(NSString *)channel;
++ (void)setCookieChannel:(NSString *)channel;
 
 @end
 
