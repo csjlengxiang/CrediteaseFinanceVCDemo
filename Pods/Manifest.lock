@@ -3,22 +3,13 @@ PODS:
   - Masonry (1.0.2)
 
 DEPENDENCIES:
-  - CrediteaseAnimation (from `https://github.com/csjlengxiang/CrediteaseAnimationDemo.git`)
+  - CrediteaseAnimation
   - Masonry
 
-EXTERNAL SOURCES:
-  CrediteaseAnimation:
-    :git: https://github.com/csjlengxiang/CrediteaseAnimationDemo.git
-
-CHECKOUT OPTIONS:
-  CrediteaseAnimation:
-    :commit: 3b5f84debf3fbc247a356843e537efc7ea8631c7
-    :git: https://github.com/csjlengxiang/CrediteaseAnimationDemo.git
-
 SPEC CHECKSUMS:
-  CrediteaseAnimation: 9818085f622f80310bb9b2231abb40e71bec08dc
+  CrediteaseAnimation: 06275468f9823738106c09e013f1ab9a064cf9c4
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
 
-PODFILE CHECKSUM: 888f422e42cbfe14dcd3d2decef397ea9d7c18c5
+PODFILE CHECKSUM: 37f8459b67dd7ba10639256196dfe1d891f32cf7
 
 COCOAPODS: 1.2.0
