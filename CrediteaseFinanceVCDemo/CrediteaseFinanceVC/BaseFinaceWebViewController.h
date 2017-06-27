@@ -27,6 +27,8 @@ static NSString *  CookieChannel = @"babysleep-iOS";
 
 - (void)setRootURL:(NSString *)rootURL domain:(NSString *)domain cookieChannel:(NSString *)channel;
 
+- (void)setCookieChannel:(NSString *)channel;
+
 @end
 
 @interface BaseFinaceWebViewController : UIViewController

@@ -17,6 +17,10 @@
     CookieChannel = channel;
 }
 
+- (void)setCookieChannel:(NSString *)channel {
+    CookieChannel = channel;
+}
+
 @end
 
 @protocol BaseFinaceWebViewControllerDelegate <JSExport>
