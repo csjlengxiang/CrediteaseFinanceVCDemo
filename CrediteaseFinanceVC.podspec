@@ -22,6 +22,6 @@ Pod::Spec.new do |s|
   s.source_files = "CrediteaseFinanceVCDemo/CrediteaseFinanceVC/**/*.{h,m}"
 
   s.dependency "Masonry"
-  s.dependency "CrediteaseAnimation", :git => "https://github.com/csjlengxiang/CrediteaseAnimationDemo.git"
+  s.dependency "CrediteaseAnimation"
 
 end
