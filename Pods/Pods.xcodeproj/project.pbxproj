@@ -1,0 +1,840 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0274CD9C915D17CDA7F5AE96D8A6B5D9 /* PresentTransitioningDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 91CEFD5E1A27FE8292629CB3BC09BCB9 /* PresentTransitioningDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04A7D6AADAB213CE7D26F8EAD2F87536 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 606C6D2B9CFA151D5207851B857C5313 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		068EF598E554EC57038ACFB89CC2C47A /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A0D7330F7192DCB75E3D5971DC0E499 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		091D17D5D8F832D28546A72B788CF0AE /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = A524BF47DCD2FFDCEA046EC62DB0C0B7 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		099E10DFED119ABC940855C374B8BEB0 /* SwipeUpInteractiveTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = C3CDC591E10F96B9976016DAA5160461 /* SwipeUpInteractiveTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F3DF5C3BEFCC9838B53C37735B414BE /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 93500A600713421E51EC02DBF740B04E /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		0FDB2B4F75591851F0F119EAE70B3F63 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BB3FC37FB60F5538E0403B8A5D5168C /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EE93B2C218FD49E0639478992D4AAF8 /* UIViewController+Ts.m in Sources */ = {isa = PBXBuildFile; fileRef = 27082994A033D1008BE788180F8AA444 /* UIViewController+Ts.m */; };
+		2446EAA8DB05249C8D273EBDFFD887E7 /* DefaultAnimationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 18D8873D747DA6C35650AAAA267793BB /* DefaultAnimationProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24F7E7A194A5324BF4FCF5B1574C11F7 /* DefaultPresentAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C40DEC6EBB1EA6704AF1B94E0B408B9 /* DefaultPresentAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2854C9B1086758BD2B6681206B6759B4 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 23F14B26708065E3962EC9F69A55793A /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B837CFE6E5A81D7330A2459A661C02C /* CrediteaseAnimation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9619F7924B3A06C655FDD318A232589 /* CrediteaseAnimation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EC8C55BF14675B3642FCA27E40DCC61 /* UIViewController+Ts.h in Headers */ = {isa = PBXBuildFile; fileRef = 68B3CEE6E5EB63FBAFEFFD5D12D70D19 /* UIViewController+Ts.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		457ACF9150DCF9AF445B129CC9678FB6 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A123FE2322AD9C4EB2E96234207E4512 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D4F2050654580FE1F1D5F4F82CEDDB8 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D53705B6BFF8F97D6885F7362090A626 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5356E2D56C0622E97960DD88F4A65F70 /* PresentTransitioningDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 145DF5839834E738CA398E0265B4A09B /* PresentTransitioningDelegate.m */; };
+		53BDF81D0A52EA526D597A5C5B139D7F /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D04ACDC02F0C15AEED1438421B2FF911 /* MASCompositeConstraint.m */; };
+		59F81DE0305CC2AC448D2A3C6B3280A2 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2F4BC4B7789BB40F50F98959D20CE6 /* MASConstraint.m */; };
+		5F3C7A5EEE31763D425F76A4F3E6C6BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		6230C102162087640821ABDE5F0BC534 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		636BBA734C1A17A734761D674FAE8800 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 03F172981FC4D4781AC529300476A3C5 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		695B3969E9E92087502C0E398337A29C /* CrediteaseAnimation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B84A2E31FF31AEB4327110A4AA09EA /* CrediteaseAnimation-dummy.m */; };
+		6C23BBF56ED4DCC10CA1765A6736D1F8 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D3134135BC88FE7EAA14E21960BAE4 /* MASLayoutConstraint.m */; };
+		73BBDACC22CCA36A6DAAA167AD780BAF /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 41090CC7D5F832B972A55AD14A0E4B35 /* MASConstraintMaker.m */; };
+		74A721DA8FDEBDAF3932494013C201DF /* DefaultPresentAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E743E4CCC2C8441A0FF928D30B0E9E /* DefaultPresentAnimation.m */; };
+		756DF24546C7D91459DCADC8F1C98660 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8A8ACCACBE344C1120719911E5224D /* MASViewConstraint.m */; };
+		7C17BEA6034027310D1D205DB2008CA5 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = DB66D62E8DE457C2934B8D3D95474E7E /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88DE7BAB1F4999A5F4B617F44E5FD1D3 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 75DF05C8C95F5B4409820F85272846A8 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A6EEF68E7625AB66A3A8DED1594F88F /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 529D7D7E18631D148507DA15AEAD72B2 /* ViewController+MASAdditions.m */; };
+		8CD45B754192DE834B642975E85257AB /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = AF4B8D877F7DC1CD3FCA60B07F499F15 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E9F00F0F81C8FDA60F747646802E56F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		8F408B6DC8BEFBFDB228DD633E2B270D /* Pods-CrediteaseFinanceVCDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C88666081318B63EA8B60BA75E122FD3 /* Pods-CrediteaseFinanceVCDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A08A8AB356264E248D01F1BC0EF08166 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5D8ACCF675AB4555E70DF639D48661E /* Masonry-dummy.m */; };
+		A2450867C68D82E6F8DD038864A41D9A /* Pods-CrediteaseFinanceVCDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC41C2683CC8E860C49B469DA894752 /* Pods-CrediteaseFinanceVCDemo-dummy.m */; };
+		A7370CE9231F9A4927142D79021879EC /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = BC436187C25FC2C729576713B03CA03B /* MASViewAttribute.m */; };
+		AF59F0ABF6021667D2C077B3AB4F60E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		B44383A3FA435C1E986942C817339302 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 110EEC640A79ECA92C28454957540FCC /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0A16E00B4BC2D88A7833D5DAED62942 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B5448C4D5D33B36C0726BDCAC3539EF4 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8DF22EAFFC2F81B0426E2165AC93E44 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = D299C21DB0CDD259A264B5ED3CE3CADC /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC8F9B4A1AC4E276EA8AA4C6F2BF3CD4 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 70315D9D37C71708A8390BD15ED57536 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D524A9DBCB28D558B1A9B1DEE269E1CA /* DefaultDismissAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7265CC3C9B94E10C8E4FF876B122C720 /* DefaultDismissAnimation.m */; };
+		D6F50C99CAEB5FB1E29A586D27C690DC /* DefaultDismissAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = FE143DF294FEFD8823DF93F859DD9580 /* DefaultDismissAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8B1525CB3DFCBD8E5032680530413D9 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E20CD49D25547A792E206F1ABDBAD8CC /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9C1C4107A5230FE1EA1929F81EEA155 /* SwipeUpInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 807F595793B2BCABACF1F791478C0E8E /* SwipeUpInteractiveTransition.m */; };
+		E72EDE323AC9F92EC8A00A93AC186093 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DA896AAA200965E1C5792B47059893DD /* NSArray+MASAdditions.m */; };
+		F4B3E44D5D2F6508BC1BB35A9FBDEC70 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F008B230DEFD090C1393CEA8E2F791EE /* View+MASAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D22611E16E93E291C51C85B3FCB78CC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C19B5163492E57F16702DF34EFE9AEB4;
+			remoteInfo = CrediteaseAnimation;
+		};
+		D2C1EBE4AFBED302C90D29C486672D01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D52144DE9D7255DE912490FF5A806573;
+			remoteInfo = Masonry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00FAF9A92895BBE8A0AAA8CF2C55440F /* Pods-CrediteaseFinanceVCDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CrediteaseFinanceVCDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		03F172981FC4D4781AC529300476A3C5 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		110EEC640A79ECA92C28454957540FCC /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		145DF5839834E738CA398E0265B4A09B /* PresentTransitioningDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PresentTransitioningDelegate.m; path = CrediteaseAnimationDemo/CrediteaseAnimation/PresentTransitioningDelegate.m; sourceTree = "<group>"; };
+		16BF610D8F06364708A0BFEFDCE95EB1 /* Pods-CrediteaseFinanceVCDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CrediteaseFinanceVCDemo.modulemap"; sourceTree = "<group>"; };
+		18D8873D747DA6C35650AAAA267793BB /* DefaultAnimationProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DefaultAnimationProtocol.h; path = CrediteaseAnimationDemo/CrediteaseAnimation/DefaultAnimationProtocol.h; sourceTree = "<group>"; };
+		1AAA76EB6F8FFAD79AE8A48DBF26225D /* Pods_CrediteaseFinanceVCDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CrediteaseFinanceVCDemo.framework; path = "Pods-CrediteaseFinanceVCDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C40DEC6EBB1EA6704AF1B94E0B408B9 /* DefaultPresentAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DefaultPresentAnimation.h; path = CrediteaseAnimationDemo/CrediteaseAnimation/DefaultPresentAnimation.h; sourceTree = "<group>"; };
+		23F14B26708065E3962EC9F69A55793A /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		27082994A033D1008BE788180F8AA444 /* UIViewController+Ts.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Ts.m"; path = "CrediteaseAnimationDemo/CrediteaseAnimation/UIViewController+Ts.m"; sourceTree = "<group>"; };
+		2FF6C19E04387FDBA386EAEEE463B2CD /* CrediteaseAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CrediteaseAnimation.framework; path = CrediteaseAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35E743E4CCC2C8441A0FF928D30B0E9E /* DefaultPresentAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DefaultPresentAnimation.m; path = CrediteaseAnimationDemo/CrediteaseAnimation/DefaultPresentAnimation.m; sourceTree = "<group>"; };
+		3EA953808C39D80713D4FFF335EBDC03 /* Pods-CrediteaseFinanceVCDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CrediteaseFinanceVCDemo-frameworks.sh"; sourceTree = "<group>"; };
+		41090CC7D5F832B972A55AD14A0E4B35 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		442F669773F7F03936174DC77D09A539 /* CrediteaseAnimation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CrediteaseAnimation.xcconfig; sourceTree = "<group>"; };
+		4B6CE89FC7893DF29F4F9B41899245BD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5202D461B6A12CEB33C8606F24A8C819 /* Pods-CrediteaseFinanceVCDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CrediteaseFinanceVCDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		529D7D7E18631D148507DA15AEAD72B2 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		5314C9B6E35BAF6F41EB1E462FE3B715 /* CrediteaseAnimation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CrediteaseAnimation.modulemap; sourceTree = "<group>"; };
+		5BB3FC37FB60F5538E0403B8A5D5168C /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		5E2F4BC4B7789BB40F50F98959D20CE6 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		606C6D2B9CFA151D5207851B857C5313 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		68B3CEE6E5EB63FBAFEFFD5D12D70D19 /* UIViewController+Ts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Ts.h"; path = "CrediteaseAnimationDemo/CrediteaseAnimation/UIViewController+Ts.h"; sourceTree = "<group>"; };
+		70315D9D37C71708A8390BD15ED57536 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		708E0600B5821E58D3C8FD7A875B583F /* CrediteaseAnimation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CrediteaseAnimation-prefix.pch"; sourceTree = "<group>"; };
+		7265CC3C9B94E10C8E4FF876B122C720 /* DefaultDismissAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DefaultDismissAnimation.m; path = CrediteaseAnimationDemo/CrediteaseAnimation/DefaultDismissAnimation.m; sourceTree = "<group>"; };
+		75DF05C8C95F5B4409820F85272846A8 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		78274E7D9BD273E9D85F8F47382519E5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A0D7330F7192DCB75E3D5971DC0E499 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		7BC41C2683CC8E860C49B469DA894752 /* Pods-CrediteaseFinanceVCDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CrediteaseFinanceVCDemo-dummy.m"; sourceTree = "<group>"; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		807F595793B2BCABACF1F791478C0E8E /* SwipeUpInteractiveTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwipeUpInteractiveTransition.m; path = CrediteaseAnimationDemo/CrediteaseAnimation/SwipeUpInteractiveTransition.m; sourceTree = "<group>"; };
+		908FED1DA12D845875204E8FB795056B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91CEFD5E1A27FE8292629CB3BC09BCB9 /* PresentTransitioningDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PresentTransitioningDelegate.h; path = CrediteaseAnimationDemo/CrediteaseAnimation/PresentTransitioningDelegate.h; sourceTree = "<group>"; };
+		93500A600713421E51EC02DBF740B04E /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98D3134135BC88FE7EAA14E21960BAE4 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		A123FE2322AD9C4EB2E96234207E4512 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		A524BF47DCD2FFDCEA046EC62DB0C0B7 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		AF4B8D877F7DC1CD3FCA60B07F499F15 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		B5448C4D5D33B36C0726BDCAC3539EF4 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		BC436187C25FC2C729576713B03CA03B /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		C3CDC591E10F96B9976016DAA5160461 /* SwipeUpInteractiveTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwipeUpInteractiveTransition.h; path = CrediteaseAnimationDemo/CrediteaseAnimation/SwipeUpInteractiveTransition.h; sourceTree = "<group>"; };
+		C88666081318B63EA8B60BA75E122FD3 /* Pods-CrediteaseFinanceVCDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CrediteaseFinanceVCDemo-umbrella.h"; sourceTree = "<group>"; };
+		CB165D6923EF81074338D4EECC125047 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		D04ACDC02F0C15AEED1438421B2FF911 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		D1B58268007520A6E5CCDC36416AD2F0 /* Pods-CrediteaseFinanceVCDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CrediteaseFinanceVCDemo-resources.sh"; sourceTree = "<group>"; };
+		D299C21DB0CDD259A264B5ED3CE3CADC /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		D53705B6BFF8F97D6885F7362090A626 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		D66ECA67FDC8FFF6295D45B9728AEA59 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9619F7924B3A06C655FDD318A232589 /* CrediteaseAnimation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CrediteaseAnimation-umbrella.h"; sourceTree = "<group>"; };
+		DA896AAA200965E1C5792B47059893DD /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		DB66D62E8DE457C2934B8D3D95474E7E /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		DD30E1FB8A37BE20BDA91B742A5A09F5 /* Pods-CrediteaseFinanceVCDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CrediteaseFinanceVCDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E20CD49D25547A792E206F1ABDBAD8CC /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		E5D8ACCF675AB4555E70DF639D48661E /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		F008B230DEFD090C1393CEA8E2F791EE /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		F2B84A2E31FF31AEB4327110A4AA09EA /* CrediteaseAnimation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CrediteaseAnimation-dummy.m"; sourceTree = "<group>"; };
+		F5830FA2FB0D94B3FC937E60469A3CDD /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Masonry.modulemap; sourceTree = "<group>"; };
+		F99EFFAEAC71D1AE2025A86CC929F81B /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
+		FA8A8ACCACBE344C1120719911E5224D /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		FE143DF294FEFD8823DF93F859DD9580 /* DefaultDismissAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DefaultDismissAnimation.h; path = CrediteaseAnimationDemo/CrediteaseAnimation/DefaultDismissAnimation.h; sourceTree = "<group>"; };
+		FEECBB8F779E2DD181B46BC6A1B1CD9C /* Pods-CrediteaseFinanceVCDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CrediteaseFinanceVCDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05240C66F649918E3538CC0B1F4EFCD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF59F0ABF6021667D2C077B3AB4F60E8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A537214869495B88B47C967CF44F6F7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E9F00F0F81C8FDA60F747646802E56F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6EC657AC5A7BEE9A3D288B582F4C5E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F3C7A5EEE31763D425F76A4F3E6C6BD /* Foundation.framework in Frameworks */,
+				6230C102162087640821ABDE5F0BC534 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E7E0DE01FD096ED247711C6FDF2E49D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5314C9B6E35BAF6F41EB1E462FE3B715 /* CrediteaseAnimation.modulemap */,
+				442F669773F7F03936174DC77D09A539 /* CrediteaseAnimation.xcconfig */,
+				F2B84A2E31FF31AEB4327110A4AA09EA /* CrediteaseAnimation-dummy.m */,
+				708E0600B5821E58D3C8FD7A875B583F /* CrediteaseAnimation-prefix.pch */,
+				D9619F7924B3A06C655FDD318A232589 /* CrediteaseAnimation-umbrella.h */,
+				4B6CE89FC7893DF29F4F9B41899245BD /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CrediteaseAnimation";
+			sourceTree = "<group>";
+		};
+		33D62B9DB3B7E883ACF06EA33605C866 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA8FEBE465F07E79F3CAD0A782AB0857 /* CrediteaseAnimation */,
+				AC437EE37B578D034F4529A514B3FBFB /* Masonry */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7024BDEF59A13486F781E7E3EBDAFE9C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8705F0E7141F1FDF74E132137DED9B70 /* Pods-CrediteaseFinanceVCDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				33D62B9DB3B7E883ACF06EA33605C866 /* Pods */,
+				EE936589C75DDCCEFE97148FFCA1CE8D /* Products */,
+				7024BDEF59A13486F781E7E3EBDAFE9C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8705F0E7141F1FDF74E132137DED9B70 /* Pods-CrediteaseFinanceVCDemo */ = {
+			isa = PBXGroup;
+			children = (
+				78274E7D9BD273E9D85F8F47382519E5 /* Info.plist */,
+				16BF610D8F06364708A0BFEFDCE95EB1 /* Pods-CrediteaseFinanceVCDemo.modulemap */,
+				FEECBB8F779E2DD181B46BC6A1B1CD9C /* Pods-CrediteaseFinanceVCDemo-acknowledgements.markdown */,
+				00FAF9A92895BBE8A0AAA8CF2C55440F /* Pods-CrediteaseFinanceVCDemo-acknowledgements.plist */,
+				7BC41C2683CC8E860C49B469DA894752 /* Pods-CrediteaseFinanceVCDemo-dummy.m */,
+				3EA953808C39D80713D4FFF335EBDC03 /* Pods-CrediteaseFinanceVCDemo-frameworks.sh */,
+				D1B58268007520A6E5CCDC36416AD2F0 /* Pods-CrediteaseFinanceVCDemo-resources.sh */,
+				C88666081318B63EA8B60BA75E122FD3 /* Pods-CrediteaseFinanceVCDemo-umbrella.h */,
+				5202D461B6A12CEB33C8606F24A8C819 /* Pods-CrediteaseFinanceVCDemo.debug.xcconfig */,
+				DD30E1FB8A37BE20BDA91B742A5A09F5 /* Pods-CrediteaseFinanceVCDemo.release.xcconfig */,
+			);
+			name = "Pods-CrediteaseFinanceVCDemo";
+			path = "Target Support Files/Pods-CrediteaseFinanceVCDemo";
+			sourceTree = "<group>";
+		};
+		9ED4423649A18E6371F08114E53126F0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				908FED1DA12D845875204E8FB795056B /* Info.plist */,
+				F5830FA2FB0D94B3FC937E60469A3CDD /* Masonry.modulemap */,
+				F99EFFAEAC71D1AE2025A86CC929F81B /* Masonry.xcconfig */,
+				E5D8ACCF675AB4555E70DF639D48661E /* Masonry-dummy.m */,
+				CB165D6923EF81074338D4EECC125047 /* Masonry-prefix.pch */,
+				A123FE2322AD9C4EB2E96234207E4512 /* Masonry-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		AC437EE37B578D034F4529A514B3FBFB /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				AF4B8D877F7DC1CD3FCA60B07F499F15 /* MASCompositeConstraint.h */,
+				D04ACDC02F0C15AEED1438421B2FF911 /* MASCompositeConstraint.m */,
+				D299C21DB0CDD259A264B5ED3CE3CADC /* MASConstraint.h */,
+				5E2F4BC4B7789BB40F50F98959D20CE6 /* MASConstraint.m */,
+				D53705B6BFF8F97D6885F7362090A626 /* MASConstraint+Private.h */,
+				75DF05C8C95F5B4409820F85272846A8 /* MASConstraintMaker.h */,
+				41090CC7D5F832B972A55AD14A0E4B35 /* MASConstraintMaker.m */,
+				DB66D62E8DE457C2934B8D3D95474E7E /* MASLayoutConstraint.h */,
+				98D3134135BC88FE7EAA14E21960BAE4 /* MASLayoutConstraint.m */,
+				70315D9D37C71708A8390BD15ED57536 /* Masonry.h */,
+				606C6D2B9CFA151D5207851B857C5313 /* MASUtilities.h */,
+				03F172981FC4D4781AC529300476A3C5 /* MASViewAttribute.h */,
+				BC436187C25FC2C729576713B03CA03B /* MASViewAttribute.m */,
+				A524BF47DCD2FFDCEA046EC62DB0C0B7 /* MASViewConstraint.h */,
+				FA8A8ACCACBE344C1120719911E5224D /* MASViewConstraint.m */,
+				B5448C4D5D33B36C0726BDCAC3539EF4 /* NSArray+MASAdditions.h */,
+				DA896AAA200965E1C5792B47059893DD /* NSArray+MASAdditions.m */,
+				E20CD49D25547A792E206F1ABDBAD8CC /* NSArray+MASShorthandAdditions.h */,
+				5BB3FC37FB60F5538E0403B8A5D5168C /* NSLayoutConstraint+MASDebugAdditions.h */,
+				93500A600713421E51EC02DBF740B04E /* NSLayoutConstraint+MASDebugAdditions.m */,
+				7A0D7330F7192DCB75E3D5971DC0E499 /* View+MASAdditions.h */,
+				F008B230DEFD090C1393CEA8E2F791EE /* View+MASAdditions.m */,
+				110EEC640A79ECA92C28454957540FCC /* View+MASShorthandAdditions.h */,
+				23F14B26708065E3962EC9F69A55793A /* ViewController+MASAdditions.h */,
+				529D7D7E18631D148507DA15AEAD72B2 /* ViewController+MASAdditions.m */,
+				9ED4423649A18E6371F08114E53126F0 /* Support Files */,
+			);
+			name = Masonry;
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EA8FEBE465F07E79F3CAD0A782AB0857 /* CrediteaseAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				18D8873D747DA6C35650AAAA267793BB /* DefaultAnimationProtocol.h */,
+				FE143DF294FEFD8823DF93F859DD9580 /* DefaultDismissAnimation.h */,
+				7265CC3C9B94E10C8E4FF876B122C720 /* DefaultDismissAnimation.m */,
+				1C40DEC6EBB1EA6704AF1B94E0B408B9 /* DefaultPresentAnimation.h */,
+				35E743E4CCC2C8441A0FF928D30B0E9E /* DefaultPresentAnimation.m */,
+				91CEFD5E1A27FE8292629CB3BC09BCB9 /* PresentTransitioningDelegate.h */,
+				145DF5839834E738CA398E0265B4A09B /* PresentTransitioningDelegate.m */,
+				C3CDC591E10F96B9976016DAA5160461 /* SwipeUpInteractiveTransition.h */,
+				807F595793B2BCABACF1F791478C0E8E /* SwipeUpInteractiveTransition.m */,
+				68B3CEE6E5EB63FBAFEFFD5D12D70D19 /* UIViewController+Ts.h */,
+				27082994A033D1008BE788180F8AA444 /* UIViewController+Ts.m */,
+				2E7E0DE01FD096ED247711C6FDF2E49D /* Support Files */,
+			);
+			name = CrediteaseAnimation;
+			path = CrediteaseAnimation;
+			sourceTree = "<group>";
+		};
+		EE936589C75DDCCEFE97148FFCA1CE8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FF6C19E04387FDBA386EAEEE463B2CD /* CrediteaseAnimation.framework */,
+				D66ECA67FDC8FFF6295D45B9728AEA59 /* Masonry.framework */,
+				1AAA76EB6F8FFAD79AE8A48DBF26225D /* Pods_CrediteaseFinanceVCDemo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		245303B2A8771515C16E8037E47A0480 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F408B6DC8BEFBFDB228DD633E2B270D /* Pods-CrediteaseFinanceVCDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		897858346F7BA70DF6509D76A2C7C1A5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B837CFE6E5A81D7330A2459A661C02C /* CrediteaseAnimation-umbrella.h in Headers */,
+				2446EAA8DB05249C8D273EBDFFD887E7 /* DefaultAnimationProtocol.h in Headers */,
+				D6F50C99CAEB5FB1E29A586D27C690DC /* DefaultDismissAnimation.h in Headers */,
+				24F7E7A194A5324BF4FCF5B1574C11F7 /* DefaultPresentAnimation.h in Headers */,
+				0274CD9C915D17CDA7F5AE96D8A6B5D9 /* PresentTransitioningDelegate.h in Headers */,
+				099E10DFED119ABC940855C374B8BEB0 /* SwipeUpInteractiveTransition.h in Headers */,
+				2EC8C55BF14675B3642FCA27E40DCC61 /* UIViewController+Ts.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3E9930C736C01D12F5733EFD1F0A948 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD45B754192DE834B642975E85257AB /* MASCompositeConstraint.h in Headers */,
+				4D4F2050654580FE1F1D5F4F82CEDDB8 /* MASConstraint+Private.h in Headers */,
+				C8DF22EAFFC2F81B0426E2165AC93E44 /* MASConstraint.h in Headers */,
+				88DE7BAB1F4999A5F4B617F44E5FD1D3 /* MASConstraintMaker.h in Headers */,
+				7C17BEA6034027310D1D205DB2008CA5 /* MASLayoutConstraint.h in Headers */,
+				457ACF9150DCF9AF445B129CC9678FB6 /* Masonry-umbrella.h in Headers */,
+				CC8F9B4A1AC4E276EA8AA4C6F2BF3CD4 /* Masonry.h in Headers */,
+				04A7D6AADAB213CE7D26F8EAD2F87536 /* MASUtilities.h in Headers */,
+				636BBA734C1A17A734761D674FAE8800 /* MASViewAttribute.h in Headers */,
+				091D17D5D8F832D28546A72B788CF0AE /* MASViewConstraint.h in Headers */,
+				C0A16E00B4BC2D88A7833D5DAED62942 /* NSArray+MASAdditions.h in Headers */,
+				D8B1525CB3DFCBD8E5032680530413D9 /* NSArray+MASShorthandAdditions.h in Headers */,
+				0FDB2B4F75591851F0F119EAE70B3F63 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				068EF598E554EC57038ACFB89CC2C47A /* View+MASAdditions.h in Headers */,
+				B44383A3FA435C1E986942C817339302 /* View+MASShorthandAdditions.h in Headers */,
+				2854C9B1086758BD2B6681206B6759B4 /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5C23A8A6D6ADA4A781E73E5AC90F2173 /* Pods-CrediteaseFinanceVCDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E0EFEAFBD537FAF8639E322D3C045B7 /* Build configuration list for PBXNativeTarget "Pods-CrediteaseFinanceVCDemo" */;
+			buildPhases = (
+				AB5ED6BD62020C2651A30C3248948A2B /* Sources */,
+				A537214869495B88B47C967CF44F6F7C /* Frameworks */,
+				245303B2A8771515C16E8037E47A0480 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7E6EDA01D3347835D7C3D7414282632 /* PBXTargetDependency */,
+				E308D1C9FD73C402C0434138570AE8F1 /* PBXTargetDependency */,
+			);
+			name = "Pods-CrediteaseFinanceVCDemo";
+			productName = "Pods-CrediteaseFinanceVCDemo";
+			productReference = 1AAA76EB6F8FFAD79AE8A48DBF26225D /* Pods_CrediteaseFinanceVCDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C19B5163492E57F16702DF34EFE9AEB4 /* CrediteaseAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86B4E68B5EBAD65DB8583B9F7C563B4A /* Build configuration list for PBXNativeTarget "CrediteaseAnimation" */;
+			buildPhases = (
+				7678664F7134A70AE015F5662F5F4EE4 /* Sources */,
+				05240C66F649918E3538CC0B1F4EFCD5 /* Frameworks */,
+				897858346F7BA70DF6509D76A2C7C1A5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrediteaseAnimation;
+			productName = CrediteaseAnimation;
+			productReference = 2FF6C19E04387FDBA386EAEEE463B2CD /* CrediteaseAnimation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D52144DE9D7255DE912490FF5A806573 /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02D024184BD368B565F3B6257DF3C605 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				00A62ED60FF8A98AB74C8F2CECD850BA /* Sources */,
+				F6EC657AC5A7BEE9A3D288B582F4C5E9 /* Frameworks */,
+				F3E9930C736C01D12F5733EFD1F0A948 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = D66ECA67FDC8FFF6295D45B9728AEA59 /* Masonry.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = EE936589C75DDCCEFE97148FFCA1CE8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C19B5163492E57F16702DF34EFE9AEB4 /* CrediteaseAnimation */,
+				D52144DE9D7255DE912490FF5A806573 /* Masonry */,
+				5C23A8A6D6ADA4A781E73E5AC90F2173 /* Pods-CrediteaseFinanceVCDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00A62ED60FF8A98AB74C8F2CECD850BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53BDF81D0A52EA526D597A5C5B139D7F /* MASCompositeConstraint.m in Sources */,
+				59F81DE0305CC2AC448D2A3C6B3280A2 /* MASConstraint.m in Sources */,
+				73BBDACC22CCA36A6DAAA167AD780BAF /* MASConstraintMaker.m in Sources */,
+				6C23BBF56ED4DCC10CA1765A6736D1F8 /* MASLayoutConstraint.m in Sources */,
+				A08A8AB356264E248D01F1BC0EF08166 /* Masonry-dummy.m in Sources */,
+				A7370CE9231F9A4927142D79021879EC /* MASViewAttribute.m in Sources */,
+				756DF24546C7D91459DCADC8F1C98660 /* MASViewConstraint.m in Sources */,
+				E72EDE323AC9F92EC8A00A93AC186093 /* NSArray+MASAdditions.m in Sources */,
+				0F3DF5C3BEFCC9838B53C37735B414BE /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				F4B3E44D5D2F6508BC1BB35A9FBDEC70 /* View+MASAdditions.m in Sources */,
+				8A6EEF68E7625AB66A3A8DED1594F88F /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7678664F7134A70AE015F5662F5F4EE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				695B3969E9E92087502C0E398337A29C /* CrediteaseAnimation-dummy.m in Sources */,
+				D524A9DBCB28D558B1A9B1DEE269E1CA /* DefaultDismissAnimation.m in Sources */,
+				74A721DA8FDEBDAF3932494013C201DF /* DefaultPresentAnimation.m in Sources */,
+				5356E2D56C0622E97960DD88F4A65F70 /* PresentTransitioningDelegate.m in Sources */,
+				D9C1C4107A5230FE1EA1929F81EEA155 /* SwipeUpInteractiveTransition.m in Sources */,
+				1EE93B2C218FD49E0639478992D4AAF8 /* UIViewController+Ts.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5ED6BD62020C2651A30C3248948A2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2450867C68D82E6F8DD038864A41D9A /* Pods-CrediteaseFinanceVCDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7E6EDA01D3347835D7C3D7414282632 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CrediteaseAnimation;
+			target = C19B5163492E57F16702DF34EFE9AEB4 /* CrediteaseAnimation */;
+			targetProxy = D22611E16E93E291C51C85B3FCB78CC3 /* PBXContainerItemProxy */;
+		};
+		E308D1C9FD73C402C0434138570AE8F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = D52144DE9D7255DE912490FF5A806573 /* Masonry */;
+			targetProxy = D2C1EBE4AFBED302C90D29C486672D01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		087317C5B5C2EB99ACBD45AA623795CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5202D461B6A12CEB33C8606F24A8C819 /* Pods-CrediteaseFinanceVCDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CrediteaseFinanceVCDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CrediteaseFinanceVCDemo/Pods-CrediteaseFinanceVCDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CrediteaseFinanceVCDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		156284431C64CB05C59BDA0595A1E95A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CF876888FB8644B1C6269DD95614267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD30E1FB8A37BE20BDA91B742A5A09F5 /* Pods-CrediteaseFinanceVCDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CrediteaseFinanceVCDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CrediteaseFinanceVCDemo/Pods-CrediteaseFinanceVCDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CrediteaseFinanceVCDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		293A257E4669C07F77FCCE676448688A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F99EFFAEAC71D1AE2025A86CC929F81B /* Masonry.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		48C2DBE054B2FF57CA5031F82144065C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F99EFFAEAC71D1AE2025A86CC929F81B /* Masonry.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B13F39BB6B877550266AF8A73116EE69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 442F669773F7F03936174DC77D09A539 /* CrediteaseAnimation.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CrediteaseAnimation/CrediteaseAnimation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CrediteaseAnimation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CrediteaseAnimation/CrediteaseAnimation.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CrediteaseAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B43A2FF8DE932AFCDEE3C413669906AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 442F669773F7F03936174DC77D09A539 /* CrediteaseAnimation.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CrediteaseAnimation/CrediteaseAnimation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CrediteaseAnimation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CrediteaseAnimation/CrediteaseAnimation.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CrediteaseAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C382132BB6BF8CA1A911872A2062FD0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02D024184BD368B565F3B6257DF3C605 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48C2DBE054B2FF57CA5031F82144065C /* Debug */,
+				293A257E4669C07F77FCCE676448688A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E0EFEAFBD537FAF8639E322D3C045B7 /* Build configuration list for PBXNativeTarget "Pods-CrediteaseFinanceVCDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				087317C5B5C2EB99ACBD45AA623795CA /* Debug */,
+				1CF876888FB8644B1C6269DD95614267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C382132BB6BF8CA1A911872A2062FD0D /* Debug */,
+				156284431C64CB05C59BDA0595A1E95A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86B4E68B5EBAD65DB8583B9F7C563B4A /* Build configuration list for PBXNativeTarget "CrediteaseAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B43A2FF8DE932AFCDEE3C413669906AF /* Debug */,
+				B13F39BB6B877550266AF8A73116EE69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

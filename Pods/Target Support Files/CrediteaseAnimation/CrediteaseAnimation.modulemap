@@ -1,0 +1,6 @@
+framework module CrediteaseAnimation {
+  umbrella header "CrediteaseAnimation-umbrella.h"
+
+  export *
+  module * { export * }
+}

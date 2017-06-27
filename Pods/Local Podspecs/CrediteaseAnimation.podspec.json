@@ -1,0 +1,19 @@
+{
+  "name": "CrediteaseAnimation",
+  "version": "0.0.1",
+  "summary": "CrediteaseAnimation is used for animation",
+  "description": "CrediteaseAnimation is used for animation in big data center for app like babasleep. I just test for pods",
+  "homepage": "https://github.com/csjlengxiang",
+  "license": "MIT",
+  "authors": {
+    "Chen Sijie": "sijiechen3@creditease.cn"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/csjlengxiang/CrediteaseAnimationDemo.git",
+    "tag": "0.0.1"
+  },
+  "source_files": "CrediteaseAnimationDemo/CrediteaseAnimation/**/*.{h,m}"
+}

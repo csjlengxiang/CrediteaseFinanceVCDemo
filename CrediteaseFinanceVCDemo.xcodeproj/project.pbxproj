@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		387BCCA41F024CCB0052A700 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387BCCA31F024CCB0052A700 /* AppDelegate.swift */; };
+		387BCCA61F024CCB0052A700 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387BCCA51F024CCB0052A700 /* ViewController.swift */; };
+		387BCCA91F024CCB0052A700 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 387BCCA71F024CCB0052A700 /* Main.storyboard */; };
+		387BCCAB1F024CCB0052A700 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 387BCCAA1F024CCB0052A700 /* Assets.xcassets */; };
+		387BCCAE1F024CCB0052A700 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 387BCCAC1F024CCB0052A700 /* LaunchScreen.storyboard */; };
+		387BCCBF1F02505C0052A700 /* BaseFinaceWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387BCCB81F02505C0052A700 /* BaseFinaceWebViewController.m */; };
+		387BCCC01F02505C0052A700 /* FinancePresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387BCCBA1F02505C0052A700 /* FinancePresentViewController.m */; };
+		387BCCC11F02505C0052A700 /* FinanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387BCCBC1F02505C0052A700 /* FinanceViewController.m */; };
+		387BCCC21F02505C0052A700 /* UIWebView+TS_JavaScriptContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 387BCCBE1F02505C0052A700 /* UIWebView+TS_JavaScriptContext.m */; };
+		A3080FCDE0F28AC4C03CB9BF /* Pods_CrediteaseFinanceVCDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94A25DAE0D0E89589A14E2AE /* Pods_CrediteaseFinanceVCDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		289008C44D33E2A7A13045EB /* Pods-CrediteaseFinanceVCDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrediteaseFinanceVCDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CrediteaseFinanceVCDemo/Pods-CrediteaseFinanceVCDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		387BCCA01F024CCB0052A700 /* CrediteaseFinanceVCDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrediteaseFinanceVCDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		387BCCA31F024CCB0052A700 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		387BCCA51F024CCB0052A700 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		387BCCA81F024CCB0052A700 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		387BCCAA1F024CCB0052A700 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		387BCCAD1F024CCB0052A700 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		387BCCAF1F024CCB0052A700 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		387BCCB61F02505B0052A700 /* CrediteaseFinanceVCDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CrediteaseFinanceVCDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		387BCCB71F02505C0052A700 /* BaseFinaceWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseFinaceWebViewController.h; path = CrediteaseFinanceVC/BaseFinaceWebViewController.h; sourceTree = "<group>"; };
+		387BCCB81F02505C0052A700 /* BaseFinaceWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseFinaceWebViewController.m; path = CrediteaseFinanceVC/BaseFinaceWebViewController.m; sourceTree = "<group>"; };
+		387BCCB91F02505C0052A700 /* FinancePresentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FinancePresentViewController.h; path = CrediteaseFinanceVC/FinancePresentViewController.h; sourceTree = "<group>"; };
+		387BCCBA1F02505C0052A700 /* FinancePresentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FinancePresentViewController.m; path = CrediteaseFinanceVC/FinancePresentViewController.m; sourceTree = "<group>"; };
+		387BCCBB1F02505C0052A700 /* FinanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FinanceViewController.h; path = CrediteaseFinanceVC/FinanceViewController.h; sourceTree = "<group>"; };
+		387BCCBC1F02505C0052A700 /* FinanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FinanceViewController.m; path = CrediteaseFinanceVC/FinanceViewController.m; sourceTree = "<group>"; };
+		387BCCBD1F02505C0052A700 /* UIWebView+TS_JavaScriptContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIWebView+TS_JavaScriptContext.h"; path = "CrediteaseFinanceVC/UIWebView+TS_JavaScriptContext.h"; sourceTree = "<group>"; };
+		387BCCBE1F02505C0052A700 /* UIWebView+TS_JavaScriptContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+TS_JavaScriptContext.m"; path = "CrediteaseFinanceVC/UIWebView+TS_JavaScriptContext.m"; sourceTree = "<group>"; };
+		82456D32BEFE11B09ADB2BE3 /* Pods-CrediteaseFinanceVCDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrediteaseFinanceVCDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CrediteaseFinanceVCDemo/Pods-CrediteaseFinanceVCDemo.release.xcconfig"; sourceTree = "<group>"; };
+		94A25DAE0D0E89589A14E2AE /* Pods_CrediteaseFinanceVCDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrediteaseFinanceVCDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		387BCC9D1F024CCB0052A700 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3080FCDE0F28AC4C03CB9BF /* Pods_CrediteaseFinanceVCDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		387BCC971F024CCB0052A700 = {
+			isa = PBXGroup;
+			children = (
+				387BCCA21F024CCB0052A700 /* CrediteaseFinanceVCDemo */,
+				387BCCA11F024CCB0052A700 /* Products */,
+				C85D93CBCF830649EE7438FD /* Pods */,
+				F8B1344D16EDFA128FE8EB54 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		387BCCA11F024CCB0052A700 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				387BCCA01F024CCB0052A700 /* CrediteaseFinanceVCDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		387BCCA21F024CCB0052A700 /* CrediteaseFinanceVCDemo */ = {
+			isa = PBXGroup;
+			children = (
+				387BCCB51F024CDA0052A700 /* CrediteaseFinanceVC */,
+				387BCCA31F024CCB0052A700 /* AppDelegate.swift */,
+				387BCCA51F024CCB0052A700 /* ViewController.swift */,
+				387BCCB61F02505B0052A700 /* CrediteaseFinanceVCDemo-Bridging-Header.h */,
+				387BCCA71F024CCB0052A700 /* Main.storyboard */,
+				387BCCAA1F024CCB0052A700 /* Assets.xcassets */,
+				387BCCAC1F024CCB0052A700 /* LaunchScreen.storyboard */,
+				387BCCAF1F024CCB0052A700 /* Info.plist */,
+			);
+			path = CrediteaseFinanceVCDemo;
+			sourceTree = "<group>";
+		};
+		387BCCB51F024CDA0052A700 /* CrediteaseFinanceVC */ = {
+			isa = PBXGroup;
+			children = (
+				387BCCB71F02505C0052A700 /* BaseFinaceWebViewController.h */,
+				387BCCB81F02505C0052A700 /* BaseFinaceWebViewController.m */,
+				387BCCB91F02505C0052A700 /* FinancePresentViewController.h */,
+				387BCCBA1F02505C0052A700 /* FinancePresentViewController.m */,
+				387BCCBB1F02505C0052A700 /* FinanceViewController.h */,
+				387BCCBC1F02505C0052A700 /* FinanceViewController.m */,
+				387BCCBD1F02505C0052A700 /* UIWebView+TS_JavaScriptContext.h */,
+				387BCCBE1F02505C0052A700 /* UIWebView+TS_JavaScriptContext.m */,
+			);
+			name = CrediteaseFinanceVC;
+			sourceTree = "<group>";
+		};
+		C85D93CBCF830649EE7438FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				289008C44D33E2A7A13045EB /* Pods-CrediteaseFinanceVCDemo.debug.xcconfig */,
+				82456D32BEFE11B09ADB2BE3 /* Pods-CrediteaseFinanceVCDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F8B1344D16EDFA128FE8EB54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94A25DAE0D0E89589A14E2AE /* Pods_CrediteaseFinanceVCDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		387BCC9F1F024CCB0052A700 /* CrediteaseFinanceVCDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 387BCCB21F024CCB0052A700 /* Build configuration list for PBXNativeTarget "CrediteaseFinanceVCDemo" */;
+			buildPhases = (
+				FCBE554096AC72826DB51A34 /* [CP] Check Pods Manifest.lock */,
+				387BCC9C1F024CCB0052A700 /* Sources */,
+				387BCC9D1F024CCB0052A700 /* Frameworks */,
+				387BCC9E1F024CCB0052A700 /* Resources */,
+				467932C33F8B5BBC06FC177A /* [CP] Embed Pods Frameworks */,
+				A441464C388FEE420770250F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrediteaseFinanceVCDemo;
+			productName = CrediteaseFinanceVCDemo;
+			productReference = 387BCCA01F024CCB0052A700 /* CrediteaseFinanceVCDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		387BCC981F024CCB0052A700 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = sijiechen3;
+				TargetAttributes = {
+					387BCC9F1F024CCB0052A700 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4S7XAGT677;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 387BCC9B1F024CCB0052A700 /* Build configuration list for PBXProject "CrediteaseFinanceVCDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 387BCC971F024CCB0052A700;
+			productRefGroup = 387BCCA11F024CCB0052A700 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				387BCC9F1F024CCB0052A700 /* CrediteaseFinanceVCDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		387BCC9E1F024CCB0052A700 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				387BCCAE1F024CCB0052A700 /* LaunchScreen.storyboard in Resources */,
+				387BCCAB1F024CCB0052A700 /* Assets.xcassets in Resources */,
+				387BCCA91F024CCB0052A700 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		467932C33F8B5BBC06FC177A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrediteaseFinanceVCDemo/Pods-CrediteaseFinanceVCDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A441464C388FEE420770250F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrediteaseFinanceVCDemo/Pods-CrediteaseFinanceVCDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCBE554096AC72826DB51A34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		387BCC9C1F024CCB0052A700 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				387BCCC21F02505C0052A700 /* UIWebView+TS_JavaScriptContext.m in Sources */,
+				387BCCC11F02505C0052A700 /* FinanceViewController.m in Sources */,
+				387BCCBF1F02505C0052A700 /* BaseFinaceWebViewController.m in Sources */,
+				387BCCC01F02505C0052A700 /* FinancePresentViewController.m in Sources */,
+				387BCCA61F024CCB0052A700 /* ViewController.swift in Sources */,
+				387BCCA41F024CCB0052A700 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		387BCCA71F024CCB0052A700 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				387BCCA81F024CCB0052A700 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		387BCCAC1F024CCB0052A700 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				387BCCAD1F024CCB0052A700 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		387BCCB01F024CCB0052A700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		387BCCB11F024CCB0052A700 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		387BCCB31F024CCB0052A700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 289008C44D33E2A7A13045EB /* Pods-CrediteaseFinanceVCDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 4S7XAGT677;
+				INFOPLIST_FILE = CrediteaseFinanceVCDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.creditease.CrediteaseFinanceVCDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CrediteaseFinanceVCDemo/CrediteaseFinanceVCDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		387BCCB41F024CCB0052A700 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82456D32BEFE11B09ADB2BE3 /* Pods-CrediteaseFinanceVCDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 4S7XAGT677;
+				INFOPLIST_FILE = CrediteaseFinanceVCDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.creditease.CrediteaseFinanceVCDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CrediteaseFinanceVCDemo/CrediteaseFinanceVCDemo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		387BCC9B1F024CCB0052A700 /* Build configuration list for PBXProject "CrediteaseFinanceVCDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				387BCCB01F024CCB0052A700 /* Debug */,
+				387BCCB11F024CCB0052A700 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		387BCCB21F024CCB0052A700 /* Build configuration list for PBXNativeTarget "CrediteaseFinanceVCDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				387BCCB31F024CCB0052A700 /* Debug */,
+				387BCCB41F024CCB0052A700 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 387BCC981F024CCB0052A700 /* Project object */;
+}
