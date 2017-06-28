@@ -9,8 +9,6 @@
 #import "FinancePresentViewController.h"
 #import "DefaultAnimationProtocol.h"
 
-extern NSString * FinanceRootURL;
-
 @interface FinancePresentViewController () <TSWebViewDelegate, DefaultAnimationProtocol>
 
 @property (strong, nonatomic) UIColor * originColor;

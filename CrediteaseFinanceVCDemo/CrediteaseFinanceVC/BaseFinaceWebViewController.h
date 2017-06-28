@@ -9,6 +9,10 @@
 #import <UIKit/UIKit.h>
 #import "UIWebView+TS_JavaScriptContext.h"
 
+extern NSString *  CookieChannel;
+extern NSString *  FinanceDomain;
+extern NSString *  FinanceRootURL;
+
 @interface FinanceVCManager : NSObject
 
 + (void)setRootURL:(NSString *)rootURL domain:(NSString *)domain cookieChannel:(NSString *)channel;
