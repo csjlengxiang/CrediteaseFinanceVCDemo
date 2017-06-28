@@ -7,6 +7,8 @@
 #import "FinancePresentViewController.h"
 #import "DefaultAnimationProtocol.h"
 
+extern NSString * FinanceRootURL;
+
 @interface FinanceViewController () <UIWebViewDelegate, TSWebViewDelegate, DefaultAnimationProtocol>
 
 @property (strong, nonatomic) UIRefreshControl * refreshControl;

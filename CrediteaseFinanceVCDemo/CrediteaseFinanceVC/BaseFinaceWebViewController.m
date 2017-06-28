@@ -9,6 +9,20 @@
 #import "BaseFinaceWebViewController.h"
 #import "Masonry.h"
 
+#if DEBUG
+
+NSString *  FinanceRootURL = @"http://zhiwang.yxapp.co/matrix/#/home";
+NSString *  FinanceDomain = @"zhiwang.yxapp.co";
+NSString *  CookieChannel = @"babysleep-iOS";
+
+#else
+
+NSString *  FinanceRootURL = @"https://www.91zhiwang.com/matrix/#/home";
+NSString *  FinanceDomain = @"www.91zhiwang.com";
+NSString *  CookieChannel = @"babysleep-iOS";
+
+#endif
+
 @implementation FinanceVCManager
 
 + (void)setRootURL:(NSString *)rootURL domain:(NSString *)domain cookieChannel:(NSString *)channel {

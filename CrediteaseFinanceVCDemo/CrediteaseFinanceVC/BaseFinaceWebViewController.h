@@ -9,20 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "UIWebView+TS_JavaScriptContext.h"
 
-#if DEBUG
-
-static NSString *  FinanceRootURL = @"http://zhiwang.yxapp.co/matrix/#/home";
-static NSString *  FinanceDomain = @"zhiwang.yxapp.co";
-static NSString *  CookieChannel = @"babysleep-iOS";
-
-#else
-
-static NSString *  FinanceRootURL = @"https://www.91zhiwang.com/matrix/#/home";
-static NSString *  FinanceDomain = @"www.91zhiwang.com";
-static NSString *  CookieChannel = @"babysleep-iOS";
-
-#endif 
-
 @interface FinanceVCManager : NSObject
 
 + (void)setRootURL:(NSString *)rootURL domain:(NSString *)domain cookieChannel:(NSString *)channel;
